@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SIM Card Registration Form</title>
+    <link rel="stylesheet" href="SCRF.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>SIM Card Registration Form</h2>
+
+    <form id="simForm">
+
+        <label>Full Name</label>
+        <input type="text" id="Dipika Khanal">
+
+        <label>Citizenship Number</label>
+        <input type="text" id="citizenship">
+
+        <label>SIM Type</label>
+        <div class="radio-group">
+            <input type="radio" name="simType" value="Prepaid"> Prepaid
+            <input type="radio" name="simType" value="Postpaid"> Postpaid
+        </div>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+
+        <label>Nationality</label>
+        <select id="nationality">
+            <option value="">Select Nationality</option>
+            <option value="Nepali">Nepali</option>
+            <option value="Indian">Indian</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="terms">
+            <label for="terms">I accept Terms & Conditions</label>
+        </div>
+
+        <button type="submit">Register SIM</button>
+
+    </form>
+
+    <div id="message" class="message-box"></div>
+</div>
+
+<script src="SCRF.js"></script>
+</body>
+</html>

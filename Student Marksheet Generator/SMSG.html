@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Mark Sheet Generator</title>
+    <link rel="stylesheet" href="SMSG.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Mark Sheet Generator</h2>
+
+    <form id="marksForm">
+        
+        <label>Student Name</label>
+        <input type="text" id="name">
+
+        <label>Roll Number</label>
+        <input type="number" id="roll">
+
+        <label>Marks in English (0–100)</label>
+        <input type="number" id="english">
+
+        <label>Marks in Math (0–100)</label>
+        <input type="number" id="math">
+
+        <label>Marks in Science (0–100)</label>
+        <input type="number" id="science">
+
+        <button type="submit">Generate Mark Sheet</button>
+
+    </form>
+
+    <div id="result" class="result-box"></div>
+</div>
+
+<script src="SMSG.js"></script>
+</body>
+</html>
