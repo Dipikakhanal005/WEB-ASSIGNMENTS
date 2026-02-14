@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Course Enrollment</title>
+    <link rel="stylesheet" href="OCEF.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Online Course Enrollment Form</h2>
+
+    <form id="courseForm">
+
+        <label>Student Name</label>
+        <input type="text" id="Dipika Khanal">
+
+        <label>Email</label>
+        <input type="text" id="dipikakhanal626@gmail.com">
+
+        <label>Course Name</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Data Science">Data Science</option>
+        </select>
+
+        <label>Mode of Study</label>
+        <div class="radio-group">
+            <input type="radio" name="mode" value="Online"> Online
+            <input type="radio" name="mode" value="Offline"> Offline
+        </div>
+
+        <label>Previous Experience</label>
+        <div class="radio-group">
+            <input type="radio" name="experience" value="Yes" id="expYes"> Yes
+            <input type="radio" name="experience" value="No" id="expNo"> No
+        </div>
+
+        <div id="experienceDetails" style="display:none;">
+            <label>Experience Details</label>
+            <textarea id="details" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Enroll Now</button>
+
+    </form>
+</div>
+
+<script src="OCEF.js"></script>
+</body>
+</html>

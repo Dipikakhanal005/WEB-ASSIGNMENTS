@@ -2,7 +2,7 @@ document.getElementById("marksForm").addEventListener("submit", function(event) 
 
     event.preventDefault(); 
 
-    let name = document.getElementById("name").value.trim();
+    let name = document.getElementById("Dipika Khanal").value.trim();
     let roll = document.getElementById("roll").value.trim();
     let english = document.getElementById("english").value;
     let math = document.getElementById("math").value;

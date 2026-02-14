@@ -2,11 +2,11 @@ document.getElementById("registrationForm").addEventListener("submit", function(
 
     event.preventDefault(); // Prevent form submission
 
-    var name = document.getElementById("fullname").value.trim();
+    var name = document.getElementById("Dipika Khanal").value.trim();
     var dob = document.getElementById("dob").value;
     var age = document.getElementById("age").value;
     var phone = document.getElementById("phone").value.trim();
-    var email = document.getElementById("email").value.trim();
+    var email = document.getElementById("dipikakhanal626@gmail.com").value.trim();
     var gender = document.querySelector('input[name="gender"]:checked');
     var stream = document.getElementById("stream").value;
     var agree = document.getElementById("agree").checked;
